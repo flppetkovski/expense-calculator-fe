@@ -156,7 +156,24 @@ color: "#A9reA9A9",
                 Birthday: {moment(profile.birthday).format("MMMM Do, YYYY")}
               </Typography>{" "}
             </Box>
-           
+           <Box ml={-0.5} mt={3.5}>
+            <Button
+        variant="contained" color="primary" type="submit"
+            >
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                }}
+                to="/users/me/edit"
+              >
+              <div style={{display:"flex", alignItems: "center", justifyContent: "center"}}>
+                Edit Profile
+                </div>
+              </Link>
+            </Button>
+           </Box>
+  
           </Box>
         </Container>
       </Box>
