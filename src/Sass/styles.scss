@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  padding-right: 2.5rem;
+  padding-left: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.image-container {
+  margin-top: 2.5rem;
+  width: 100%;
+  background: url("../img/img-1.jpg") no-repeat fixed;
+  background-size: 720px;
+  margin-bottom: 0;
+}
+.logo {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  // margin-right: 0.8rem;
+  background: url("../img/logo9.png") center no-repeat;
+  height: 2.7rem;
+  width: 15rem;
+}
+.signUpForm-container {
+  font-family: "Roboto", sans-serif;
+  margin-left: 1rem;
+  margin-right: -6rem;
+}
+.signup__header {
+  font-weight: bold;
+}
+
+.signup__paragraph {
+  font-weight: bold;
+}
+
+.product__container {
+  width: 50rem;
+  justify-content: center;
+}
+.search__container {
+  width: 16.38rem;
+  justify-content: center;
+}
+
+.product__buttons {
+  display: inline-block;
+  margin-left: auto;
+}
+.edit {
+  text-decoration: none;
+}
+.delete_button {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.edit_button {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+.footer {
+  padding: 0.5em;
+  background-color: #3e4551;
+  color: #bdbdbd;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa {
+  color: #fff;
+  font-size: 0.5rem;
+}
+
+.social_icon {
+  text-decoration: none;
+  color: #bdbdbd;
+  border: none;
+}
+
+.dashboard_link:hover {
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.99;
+  color: "#fff";
+  // transform: scale(1.05);
+  background-color: #21b6ae;
+}
+.social_icon:hover {
+  color: #21b6ae;
+}
+.a404 {
+  font-size: 2rem;
+  transition: 0.2s ease-in;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.a404:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+[1011/205304.961:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/114701.865:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1030/174723.474:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1030/201809.626:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1101/190320.825:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\user\AppData\Local\Google\Chrome\User Data\Crashpad\reports\b8d4658e-e70e-47fc-977c-89f114913457.dmp: The process cannot access the file because it is being used by another process. (0x20)
