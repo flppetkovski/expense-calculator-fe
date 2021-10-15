@@ -40,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Products() {
+  const date = new Date()
   const classes = useStyles();
   const [products, setProducts] = useState([]);
   const [prods, setProds] = useState([]);
@@ -47,9 +48,8 @@ function Products() {
   const [mappedProds, setMappedProds] = useState([]);
   const [sortBy, setSortBy] = useState("date");
   const [value, onChange] = useState([
-    new Date("2020-10-21"),
-    new Date("2020-11-30"),
-  ]);
+    new Date(date.getFullYear(), date.getMonth(), 1),
+    new Date(date.getFullYear(), date.getMonth() + 1, 0)  ]);
   useEffect(() => {
     (async () => {
       const products = await axios.get(
